@@ -74,8 +74,11 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onResume() {
 		super.onResume();
+
+		movieManager.searchMovies(" ", " ");
+		movieList.addlistoview
 		
-		
+			
 
 		// Refresh the list when visible
 		// TODO: Search all
